@@ -1,0 +1,22 @@
+html, body, .container {
+    height: 100%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.container-row {
+    display: flex;
+    border: 1px solid blue;
+    flex: auto;
+}
+
+.grid-box {
+    border: 1px solid red;
+    /* margin: 5px; */
+    flex: auto;
+}
